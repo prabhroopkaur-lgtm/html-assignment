@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport", initial-scale="1.0">
+    <title>NESTED LISTS...</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 50px;
+            font-weight: 800px;
+            color:blueviolet
+        }
+        ul{
+            font-size: 45px;
+            color:red;
+        }
+        ul ul{
+            color:green;
+            font-size: 0.99em;
+        }
+        ul ul ul{
+            color:blue;
+         font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favourite Subjects</h1>
+    <ul>
+        <li>
+            COMPUTER SCIENCE
+            <ul list-style-type="circle">
+                <li>
+                     Programming
+               
+                    <ul type="square">
+                        <li>
+                            C
+                        </li>
+                        <li>
+                            C++
+                        </li>
+                    </ul>
+                 </li>
+                 <li>
+                    Web Technology
+                    <ul type="square">
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                    </ul>
+                 </li>
+             </ul>
+        </li>
+        <li>
+            MATHEMATICS
+            <ul type="circle">
+                <li>
+                    Algebra
+                    <ul type="square">
+                        <li>
+                            Linear Algebra
+                        </li>
+                        <li>
+                            Matrices
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Calculus
+                    <ul type="square">
+                        <li>
+                            Differentiation
+                        </li>
+                        <li>
+                            Integration
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
